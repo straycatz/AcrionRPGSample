@@ -24,11 +24,11 @@ public sealed class Enemy : BaseBehaviour{
         targetTransform = target.transform;
 
         // 当たり判定
-        this.OnCollisionEnterAsObservable().Where(col => col.gameObject.tag == "Fire").ThrottleFirst(TimeSpan.FromMilliseconds(500)).First().Subscribe(_ => Destroy(gameObject));
+        this.OnTriggerStayAsObservable().Where(col => col.gameObject.tag == "Fire").ThrottleFirst(TimeSpan.FromMilliseconds(500)).First().Subscribe(_ => Destroy(gameObject));
         
         // プレイヤーが近づいたら動きだす
         this.UpdateAsObservable().Select(_ => Vector3.Distance(targetTransform.position, thisTransform.position) < 10).DistinctUntilChanged().Where(_ => _).Subscribe(_ => agent.speed = 2f);
-        this.UpdateAsObservable().Subscribe(_ => agent.destination = thisTransform.position);
+        this.UpdateAsObservable().Subscribe(_ => agent.destination = targetTransform.position);
     }
 
     //// Use this for initialization
