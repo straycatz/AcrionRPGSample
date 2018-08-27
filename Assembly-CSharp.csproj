@@ -60,13 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\amusedART\StoneMonster\Script\Animation_Test.cs" />
-    <Compile Include="Assets\Scripts\BaseBehaviour.cs" />
-    <Compile Include="Assets\Scripts\DebugDisplayLog.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Fire.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+    <Compile Include="Assets\Externals\amusedART\StoneMonster\Script\Animation_Test.cs" />
+    <Compile Include="Assets\Externals\SimpleParticlePack\Scripts\ParticleTester.cs" />
+    <Compile Include="Assets\Main\Scripts\BaseBehaviour.cs" />
+    <Compile Include="Assets\Main\Scripts\DebugDisplayLog.cs" />
+    <Compile Include="Assets\Main\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Main\Scripts\Fire.cs" />
+    <Compile Include="Assets\Main\Scripts\Player.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/owner/source/repos/AcrionRPGSample/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
