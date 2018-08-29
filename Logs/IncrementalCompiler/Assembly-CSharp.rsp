@@ -300,8 +300,13 @@
 -i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Externals/amusedART/StoneMonster/Script/Animation_Test.cs
 -i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Externals/SimpleParticlePack/Scripts/ParticleTester.cs
 -i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/BaseBehaviour.cs
--i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/DebugDisplayLog.cs
--i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Enemy.cs
--i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Fire.cs
--i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Player.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Main_AnimationBoss.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Main_Boss.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Main_DebugDisplayLog.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Main_Enemy.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Main_Fire.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Main_Master.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Main_Player.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Result_Start.cs
+-i:C:/Users/owner/source/repos/AcrionRPGSample/Assets/Main/Scripts/Title_Start.cs
 -v:0
